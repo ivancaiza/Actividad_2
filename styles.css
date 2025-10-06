@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    color: #3d2094;
+}
+
+.input-container {
+    margin-bottom: 20px;
+}
+
+#nuevaTarea {
+    padding: 10px;
+    width: 300px;
+    margin-right: 10px;
+}
+
+#btnAgregar {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#btnAgregar:hover {
+    background-color: #45a049;
+}
+
+/* Contenedor de las secciones */
+.task-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+    margin-top: 30px;
+    width: 100%;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Secciones de tareas */
+.task-section {
+    background: #f9f9f9;
+    border-radius: 8px;
+    padding: 20px;
+    width: 250px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.task-section h2 {
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+/* Colores de cada sección */
+#toDo {
+    background-color: #f28b82; /* Rojo */
+}
+
+#doing {
+    background-color: #aecbfa; /* Azul */
+}
+
+#done {
+    background-color: #81c995; /* Verde */
+}
+
+.task-section ul {
+    list-style: none;
+    padding: 0;
+    width: 100%;
+}
+
+.task-item {
+    background-color: #fff;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.task-item button {
+    margin-left: 10px;
+}
