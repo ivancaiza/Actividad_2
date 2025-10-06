@@ -4,4 +4,4 @@ Nombre completo: Ivan Santiago Caiza Angulo
 
 Código: [407326]
 
-Correo: [ivan.caiza01@unicatolica.edu.co]\
+Correo: [ivan.caiza01@unicatolica.edu.co]
